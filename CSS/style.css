@@ -1,0 +1,178 @@
+body {
+  font-family: 'Rokkit', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  margin: 0 auto;
+}
+
+
+ h1	{
+  font-family: 'Lato', sans-serif;
+  letter-spacing:5px;
+ 	font-size: 100px;
+  text-align: center;
+  margin-bottom: -5px;
+  margin-top: 100px;
+ }
+
+ h1:hover {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 6px;
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: -5px;
+  color: #2980b9;
+ }
+
+ h2 {
+  font-family:'Lato', sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #7f8c8d;
+  margin-bottom: 30px;
+  font-weight: 300;
+  font-size: 20px;
+ }
+
+ h3 {
+  margin-top:40px;
+  font-family:'Montserrat', sans-serif;
+  text-align: center;
+ }
+
+ .content {
+  text-decoration: none;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+ }
+
+ .nav{
+    list-style:none;
+    margin-bottom:20px;
+    padding:0;
+    text-align:center;
+    color: #7f8c8d;
+}
+.nav li{
+    display:inline;
+}
+
+.nav li:hover {
+  display:inline;
+  color: #2980b9;
+}
+
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+.features li{
+  text-align: center;
+  text-decoration: none;
+  list-style:none;
+  font-weight:300;
+  font-size: 14px;
+}
+
+
+.medialinks {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+
+.medialinks li {
+  text-decoration: none;
+  display:inline;
+}
+
+.medialinks img {
+  text-decoration: none;
+  vertical-align: top;
+}
+
+.medialinks a {
+  text-decoration: none;
+}
+
+.interviews { 
+margin-top: 80px;
+text-align: center;
+}
+
+.interviews li{
+  text-align: center;
+  text-decoration: none;
+  list-style:none;
+  font-weight:300;
+  font-size: 14px;
+}
+
+.vice {
+  text-align: center;
+  margin-top:-5px;
+}
+
+.vice a {
+  text-decoration: none;
+}
+
+.vice ul {
+  margin-top: -40px;
+}
+
+.vice li{
+  text-align: center;
+  text-decoration: none;
+  list-style:none;
+  font-weight:300;
+  font-size: 14px;
+}
+
+.baeblemusic {
+  margin-top: 100px;
+  text-align:center;
+}
+
+.baeblemusic li {
+  text-align: center;
+  text-decoration: none;
+  list-style:none;
+  font-weight:300;
+  font-size: 14px;
+}
+
+.newsweek {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.newsweek li {
+  text-align: center;
+  text-decoration: none;
+  list-style:none;
+  font-weight:300;
+  font-size: 14px;
+}
+
+.refinery29 {
+  margin-top: 100px;
+  text-align:center;
+}
+
+.refinery29 li {
+  text-align: center;
+  text-decoration: none;
+  list-style:none;
+  font-weight:300;
+  font-size: 14px;
+}
+
+.signature {
+  text-align: center;
+  font-family: Lato;
+  color: #7f8c8d;
+  margin-top: 140px;
+}
