@@ -1,14 +1,18 @@
 body {
-  font-family: 'Rokkit', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.5;
   font-weight: 300;
   margin: 0 auto;
 }
 
+a:visited {
+text-decoration:none;
+color: #000000;
+}
 
  h1	{
   font-family: 'Lato', sans-serif;
-  letter-spacing:5px;
+  letter-spacing:6px;
  	font-size: 100px;
   text-align: center;
   margin-bottom: -5px;
@@ -17,7 +21,7 @@ body {
 
  h1:hover {
   font-family: 'Lato', sans-serif;
-  letter-spacing: 6px;
+  letter-spacing: 7px;
   font-size: 100px;
   text-align: center;
   margin-bottom: -5px;
@@ -36,15 +40,19 @@ body {
 
  h3 {
   margin-top:40px;
-  font-family:'Montserrat', sans-serif;
+  font-family:'Lato', sans-serif;
   text-align: center;
+  color: #7f8c8d;
  }
 
  .content {
+  font-family: 'Lato' sans-serif;
   text-decoration: none;
   text-align: center;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-top: 40px;
+  margin-left: 180px;
+  margin-right: 180px;
+  font-size:18px;
  }
 
  .nav{
@@ -56,16 +64,34 @@ body {
 }
 .nav li{
     display:inline;
+    text-decoration:none;
 }
 
 .nav li:hover {
   display:inline;
   color: #2980b9;
+  letter-spacing:0.2px;
+  text-decoration:none;
 }
 
 .nav a{
     display:inline-block;
     padding:10px;
+    text-decoration:none;
+    color: #7f8c8d
+}
+
+.nav a:hover{
+  color: #2980b9;
+}
+
+.nav li:active{
+  text-decoration:none;
+  color: #7f8c8d
+}
+
+.nav li:visited{
+  text-decoration:none;
 }
 
 .features li{
@@ -95,11 +121,48 @@ body {
 
 .medialinks a {
   text-decoration: none;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.nytimes { 
+margin-top: 80px;
+text-align:center;
+}
+
+.nytimes a {
+  text-decoration:none;
+  color: #000000;
+}
+
+.nytimes a:hover {
+  text-decoration:none;
+  color: #2980b9;
+   letter-spacing:0.2px;
+}
+
+.nytimes li{
+  text-align: center;
+  text-decoration: none;
+  list-style:none;
+  font-weight:300;
+  font-size: 14px;
 }
 
 .interviews { 
 margin-top: 80px;
-text-align: center;
+text-align:center;
+}
+
+.interviews a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.interviews a:hover {
+  text-decoration: none;
+  color: #2980b9;
+   letter-spacing:0.2px;
 }
 
 .interviews li{
@@ -117,7 +180,15 @@ text-align: center;
 
 .vice a {
   text-decoration: none;
+  color: #000000;
 }
+
+.vice a:hover {
+  text-decoration: none;
+  color: #2980b9;
+   letter-spacing:0.2px;
+}
+
 
 .vice ul {
   margin-top: -40px;
@@ -136,6 +207,17 @@ text-align: center;
   text-align:center;
 }
 
+.baeblemusic a {
+  text-decoration:none;
+  color: #000000;
+}
+
+.baeblemusic a:hover {
+  text-decoration:none;
+  color: #2980b9;
+   letter-spacing:0.2px;
+}
+
 .baeblemusic li {
   text-align: center;
   text-decoration: none;
@@ -149,6 +231,17 @@ text-align: center;
   text-align: center;
 }
 
+.newsweek a {
+  text-decoration:none;
+  color: #000000;
+}
+
+.newsweek a:hover {
+  text-decoration:none;
+  color: #2980b9;
+   letter-spacing:0.2px;
+}
+
 .newsweek li {
   text-align: center;
   text-decoration: none;
@@ -158,8 +251,19 @@ text-align: center;
 }
 
 .refinery29 {
-  margin-top: 100px;
+  margin-top: 90px;
   text-align:center;
+}
+
+.refinery29 a {
+text-decoration:none;
+color: #000000;
+}
+
+.refinery29 a:hover {
+text-decoration:none;
+color: #2980b9;
+ letter-spacing:0.2px;
 }
 
 .refinery29 li {
@@ -170,9 +274,124 @@ text-align: center;
   font-size: 14px;
 }
 
-.signature {
+.brightest {
+  margin-top: 90px;
+  text-align:center;
+}
+
+.brightest a {
+  text-decoration:none;
+  color: #000000;
+}
+
+.brightest a:hover {
+  text-decoration:none;
+  color: #2980b9;
+   letter-spacing:0.2px;
+}
+
+.brightest li {
   text-align: center;
-  font-family: Lato;
+  text-decoration: none;
+  list-style:none;
+  font-weight:300;
+  font-size: 14px;
+}
+
+.bullett {
+  margin-top: 40px;
+  text-align:center;
+}
+
+.bullett a {
+  margin-top: 0px;
+  text-decoration:none;
+  color: #000000;
+}
+
+.bullett a:hover {
+  text-decoration:none;
+  color: #2980b9;
+   letter-spacing:0.2px;
+}
+
+.bullett li {
+  margin-top: -15px;
+  text-align: center;
+  text-decoration: none;
+  list-style:none;
+  font-weight:300;
+  font-size: 14px;
+}
+
+.paste {
+  margin-top: 85px;
+  text-align:center;
+}
+
+.paste a {
+  text-decoration:none;
+  color: #000000;
+}
+
+.paste a:hover {
+  text-decoration:none;
+  color: #2980b9;
+   letter-spacing:0.2px;
+}
+
+.paste li {
+  text-align: center;
+  text-decoration: none;
+  list-style:none;
+  font-weight:300;
+  font-size: 14px;
+}
+
+.complex {
+  margin-top: 85px;
+  text-align:center;
+}
+
+.complex a {
+  text-decoration:none;
+  color: #000000;
+}
+
+.complex a:hover {
+  text-decoration:none;
+  color: #2980b9;
+   letter-spacing:0.2px;
+}
+
+.complex li {
+  text-align: center;
+  text-decoration: none;
+  list-style:none;
+  font-weight:300;
+  font-size: 14px;
+}
+
+.signature {
+  letter-spacing:1px;
+  text-align: center;
+  font-family: "Lato";
   color: #7f8c8d;
   margin-top: 140px;
+}
+
+.signature a:hover {
+letter-spacing:1.5px;
+color: #2980b9;;
+}
+
+
+.aboutme img {
+  margin-top:20px;
+  margin-left:260px;
+}
+
+.content a{
+  text-decoration:none;
+  color: #2980b9
 }
